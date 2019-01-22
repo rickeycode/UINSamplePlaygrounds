@@ -26,5 +26,5 @@
 ## Result
 
 "minimumFontSize" property doesn't work when inclued textSizeAdjust style.   
-There are same view when run app, exclued sample_edit_class_textSizeAdjust.html.   
-But sample_edit_class_textSizeAdjust.html is providing view with sample_edit_class_textSizeAdjust.html properties disabled.
+We can see same view when showing example resources, exclued sample_edit_class_textSizeAdjust.html.   
+But sample_edit_class_textSizeAdjust.html is providing view with minimumFontSize properties disabled.
