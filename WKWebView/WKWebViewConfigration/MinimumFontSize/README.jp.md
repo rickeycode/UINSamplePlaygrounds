@@ -1,5 +1,7 @@
 # iOS WKWebViewConfigurationに設定する WKPreferances の minimumFontSize プロパティ検証
 
+[English](README.md)
+
 - Swift で記載した検証用の playground を含んでいます。   
 - Resources ディレクトリに検証用のHTMLファイルを含んでいます。   
 

@@ -1,30 +1,35 @@
 # Validation code about minimumFontSize property in WKPreferences.
 
-- include playground project.   
-- sample html files in Resource directory.   
+[日本語](README.ja.md)
+
+- It contains the playground for verification described in Swift.   
+- The Resources directory contains HTML files for verification.include playground project.   
 
 ## Example resources
-- sample_basic.html   
-    ・simple paragraph html file.   
-- sample_edit_head.html   
-    ・inclued css code in head tag.   
-- sample_edit_body_js.html   
-    ・inclued css code in end of body tag.   
-- sample_edit_inline.html   
-    ・inclued css code in paragraph tag.   
-- sample_edit_class.html    
-    ・inclued css code in head tag and appending class at paragraph.   
-- sample_edit_class_em.html   
-    ・inclued css code decide font-size by em in head tag.   
-- sample_edit_class_percentage.html   
-    ・inclued css code decide font-size by percentage in head tag.   
-- sample_edit_class_fontSizeAdjust.html   
-    ・inclued css code decide fontSizeAdjusting in head tag.   
-- sample_edit_class_textSizeAdjust.html   
-    ・inclued css code decide textSizeAdjusting in head tag.   
+
+- sample_basic.html
+    HTML with simple text definition only
+- sample_edit_head.html
+    HTML with font-size specification in head tag in CSS
+- sample_edit_body_js.html
+    HTML script with script that changes font-size at JS at the end of body tag
+- sample_edit_inline.html
+    HTML with font-size specification inline on p tag in CSS
+- sample_edit_class.html
+    In CSS, specify font-size as px for head tag and HTML applied to p tag with class name
+- sample_edit_class_em.html
+    In CSS, specify font-size to em for head tag and HTML applied to p tag with class name
+- sample_edit_class_percentage.html
+    In the CSS, specify the font-size as a percentage for the head tag and HTML applied to the p tag with the class name
+- sample_edit_class_fontSizeAdjust.html
+    In CSS, specify fontSizeAdjust for head tag and HTML applied to p tag with class name
+- sample_edit_class_textSizeAdjust.html
+    In CSS, specify textSizeAdjust for head tag and HTML applied to p tag with class name
+
 
 ## Result
 
-"minimumFontSize" property doesn't work when inclued textSizeAdjust style.   
-We can see same view when showing example resources, exclued sample_edit_class_textSizeAdjust.html.   
-But sample_edit_class_textSizeAdjust.html is providing view with minimumFontSize properties disabled.
+The "minimumFontSize" property does not work if "textSizeAdjust" is specified.   
+HTML files other than sample_edit_class_textSizeAdjust.html are adjusted to the size specified by "minimumFontSize" even if you specify a small size in CSS.   
+However, sample_edit_class_textSizeAdjust.html specifies "textSizeAdjust", which is displayed in a font smaller than "minimumFontSize".    
+
