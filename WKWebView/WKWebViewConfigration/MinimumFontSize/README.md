@@ -35,4 +35,4 @@ However, sample_edit_class_textSizeAdjust.html specifies "textSizeAdjust", which
 
 ## Blog
 
-[Blog link](https://github.com/rickeycode/UINSamplePlaygrounds/tree/master/WKWebView/WKWebViewConfigration/MinimumFontSize)
+[Blog link](https://rc-code.info/ios/post-236/)

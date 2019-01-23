@@ -36,4 +36,4 @@ sample_edit_class_textSizeAdjust.html 以外のHTMLファイルはCSSで小さ�
 
 ## Blog
 
-[詳しいブログはこちら](https://github.com/rickeycode/UINSamplePlaygrounds/tree/master/WKWebView/WKWebViewConfigration/MinimumFontSize)
+[詳しいブログはこちら](https://rc-code.info/ios/post-236/)
