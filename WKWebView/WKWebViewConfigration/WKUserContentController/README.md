@@ -10,3 +10,6 @@
 - sample.html
     Execute javascript function from body tag html.
 
+## Blog
+
+[Blog link](https://rc-code.info/ios/post-194/)
