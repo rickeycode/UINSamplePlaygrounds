@@ -33,3 +33,6 @@ The "minimumFontSize" property does not work if "textSizeAdjust" is specified.
 HTML files other than sample_edit_class_textSizeAdjust.html are adjusted to the size specified by "minimumFontSize" even if you specify a small size in CSS.   
 However, sample_edit_class_textSizeAdjust.html specifies "textSizeAdjust", which is displayed in a font smaller than "minimumFontSize".    
 
+## Blog
+
+[Blog link](https://github.com/rickeycode/UINSamplePlaygrounds/tree/master/WKWebView/WKWebViewConfigration/MinimumFontSize)
