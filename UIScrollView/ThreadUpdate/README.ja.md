@@ -15,4 +15,4 @@ UIScrollViewDelegate の `scrollViewDidScroll` が発火される度（スクロ
 
 ## Blog
 
-[詳しいブログはこちら](https://rc-code.info/ios/post-237/)
+[詳しいブログはこちら](https://rc-code.info/ios/post-273/)
