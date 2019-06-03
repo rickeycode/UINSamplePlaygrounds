@@ -15,4 +15,4 @@ By transferring the process to another thread in the sample code line `scrollLog
 
 ## Blog
 
-[Blog link](https://rc-code.info/ios/post-236/)
+[Blog link](https://rc-code.info/ios/post-237/)
