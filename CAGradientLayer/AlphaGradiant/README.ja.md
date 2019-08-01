@@ -13,4 +13,4 @@
 
 ## Blog
 
-[詳しいブログはこちら](https://rc-code.info/?p=305)
+[詳しいブログはこちら](https://rc-code.info/?p=305&preview=true)
